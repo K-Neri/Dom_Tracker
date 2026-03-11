@@ -1,15 +1,15 @@
-let btn = document.getElementById('btn_count');
+let btn1 = document.getElementById('btn_count1');
 let cnt = document.getElementById('val_count');
+let btn5= document.getElementById('btn_count5');
 
 
-btn.addEventListener('click', () => {
+btn1.addEventListener('click', () => {
     cnt.innerText = parseInt(cnt.innerText) + 1;
 });
 
-console.log(btn); 
+ 
 
-let cnt5= document.getElementById('btn_count5');
 
-cnt5.addEventListener('click', () => {
+btn5.addEventListener('click', () => {
     cnt.innerText = parseInt(cnt.innerText) + 5;
 })
